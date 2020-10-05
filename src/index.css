@@ -1,0 +1,29 @@
+h1, h2 {
+    text-align: center;
+}
+
+form{
+    display:flex;
+    flex-direction: row;
+}
+
+div.details, div.right-pane, input, label {
+    flex: 1;
+}
+
+label {
+    text-align: right;
+    margin-right: 10px;
+}
+
+div.details, div.charges, div.earnings {
+    padding: 10px;
+    border: solid;
+    margin: 10px;
+}
+
+div.details>div {
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}

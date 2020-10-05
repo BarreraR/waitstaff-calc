@@ -1,10 +1,10 @@
 import $ from 'jquery';
+import app from './app.js'
+import './index.css'
 
 function main() {
-  console.log('DOM is loaded');
-
-  const startMsg = $('<p>Webpack is working!</p>');
-  $('#root').append(startMsg);
+  app.bindEventListners();
+  app.render();
 }
 
 $(main);
